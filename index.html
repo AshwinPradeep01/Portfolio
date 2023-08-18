@@ -1,0 +1,261 @@
+<!-- Go to this github repo  https://github.com/ashiksanyo10/Port_Temp.git and clone it to your local machine -->
+<!-- Open the local copy of code and edit the templete -->
+
+
+<!-- Dont alter any tags, fill in you information on required field only and dont alter style.css and javascript file-->
+<!-- once editing the templete, Create a github repo and push the code-->
+<!-- you can host the website on gitpages or netlify  -->
+<!---->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ashwin P</title>    <!-- Change it your name  --> .
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="" class="link"  
+          >{AP}. <!--insert your initials here --></a
+        >
+      </h3> <!--use the linkedIn or any link in above href-->
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Internship">Internship</a>
+          </li>
+          <!--   <li class="nav__list-item">
+            <a class="link link--nav" href="#Exp">Experience</a>
+          </li>-->
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Ashwin P.</span></h1>
+        <h2 class="about__role">Aspiring Business Analyst</h2>
+        <p class="about__desc"> <!-- Edit the About make sure you add your degree!-->
+        <centre> Hello, I am an passionate programmer with speciality in Machine Learning, Natural Language Processing, and Computer Vision.</centre> 
+        </p> <!-- about you -->
+        <br>
+        <a href="mailto:ashwin01pradeep@gmail.com">Mail: ashwin01pradeep@gmail.com </a><p> Contact: +91 8681834239</p>  <!--Change it to your mail id and contact no-->
+      </br>
+      
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1vP5kMxOgVTqVSZkz4eU_gMrJc09WuArZ/view?usp=sharing" target="_blank"  > <!-- drive link for resume-->
+            <span class="btn btn--outline">Resume</span> 
+          </a>
+
+          <a
+            href="https://github.com/GAMEWALKER360" target="_blank"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a> <!-- Github profile Link-->
+
+          <a
+            href="https://www.linkedin.com/in/ashwin-pradeep-25b864210/" target="_blank"  
+            aria-label="linkedin"
+            class="link link--icon"
+          > 
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a> <!-- LinledIn profile Link-->
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Handwritten Text Detection</h3> <!--Peoject Title -->
+            <p class="project__description">
+              Detection of Handwritten elements in a Text Documents or Government Applications using the Yolov7
+            </p> <!--Project description-->
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Yolov7</li>
+            </ul>
+
+            <a
+              href="https://github.com/GAMEWALKER360/Handwritten_Text_detection" target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >  <!--Project link-->
+
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            > <!--Project demo or git link-->
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>PC AI Assistant</h3>
+            <p class="project__description">
+              An Deep Learning based system which interacts with the user and performs various tasks in the same.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">NLP</li>
+              <li class="project__stack-item">Speech Recognition</li>
+            </ul>
+
+            <a
+              href="https://github.com/ashiksanyo10/DroneXYOLOv8" target="_blank"
+              aria-label="https://github.com/ashiksanyo10/DroneXYOLOv8" target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"  
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>StrokeSavvy</h3>
+            <p class="project__description">
+              A  web application that educates about Stroke and predicts the chances of a person based on their various characteristics
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Flask</li>
+            </ul>
+
+            <a
+              href="https://www.novypro.com/profile_projects/ashiksanyo" target="_blank"
+              aria-label="https://www.novypro.com/project/us-sales-dash" target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="Internship" class="section Internship" id="Internship">
+        <h2 class="section__title">Internships & Certifications</h2>
+
+      <div class="project">
+        <h3>Open Weaver</h3>
+        <p class="project__description">
+          Explored a lot of technologies including Machine-learning, Natural Language Processing and Computer Vision.
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">Python</li>
+          <li class="project__stack-item">NLP</li>
+          <li class="project__stack-item">Ml</li>
+        </ul>
+
+        <a
+          href=""  
+          aria-label="https://www.novypro.com/project/us-sales-dash" target="_blank"
+          class="link link--icon"
+        > <!-- Include the certification links and  -->
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://example.com"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+ <!-- duplicate the above section and you can change it to paper or experience-->
+
+      
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">C++</li>                        <!--You can fill in the elective course and you can remove extras-->
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">ML</li>
+          <li class="skills__list-item btn btn--plain">NLP</li>
+          <li class="skills__list-item btn btn--plain">Power BI</li>
+          <li class="skills__list-item btn btn--plain">Typewriting</li>
+          <li class="skills__list-item btn btn--plain">IoT</li>
+
+        </ul>
+      </section>
+
+    <footer class="footer">
+      <a
+        href="" 
+        class="link footer__link"
+      >  
+        Created By Ashwin P! <!-- edit it to your name -->
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
